@@ -4,7 +4,10 @@
 filetype plugin indent on
 set encoding=utf-8  " The encoding displayed.
 set fileencoding=utf-8  " The encoding written to file.
-                                                                                
+
+" Set bell error off
+set noeb vb t_vb=
+
 " Better copy & paste                                                           
 " When you want to paste large blocks of code into vim, press F2 before you     
 " paste. At the bottom you should see ``-- INSERT (paste) --``.                 
