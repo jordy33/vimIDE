@@ -91,6 +91,15 @@ vnoremap -# :s#^\###<cr>
 " =============
 
 " Settings for syntastic
+" First: install pathogen
+" mkdir -p ~/.vim/autoload ~/.vim/bundle
+" curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+" Second: install syntastic
+" cd ~/.vim/bundle 
+" git clone https://github.com/scrooloose/syntastic.git
+" Third: install pylint
+" debian: apt-get-install pylint
+" archlinux: pacman -S pylint
 execute pathogen#infect()
 execute pathogen#helptags()
 syntax on
