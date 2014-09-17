@@ -41,9 +41,10 @@ vnoremap > >gv  " better indentation
 " Color scheme                                                                  
 " mkdir -p ~/.vim/colors && cd ~/.vim/colors                                    
 " wget -O wombat256mod.vim http://www.vim.org/scripts/download_script.php?src_id=
-set t_Co=256                                                                    
+" check on http://bytefluent.com/vivify/
+" set t_Co=256                                                                    
 "color wombat256mod                                                              
-
+colorscheme molokai_modified
 " showing line numbers and length                                               
 set number  " show line numbers                                                 
 set tw=79   " width of document (used by gd)                                    
